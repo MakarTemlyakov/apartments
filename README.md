@@ -1,6 +1,10 @@
 # Landing site - "Design of apartments"
 
-## Site "Design of apartments", inlcudes FlexBox and Grid Layout
+[link](https://makartemlyakov.github.io/apartments/ "Link Site")
+
+https://makartemlyakov.github.io/apartments
+
+### Site "Design of apartments", inlcudes FlexBox and Grid Layout
 
 1.There are two sections. Section "Header" and "Promo". Header section includes navigation menu with logo and contact phone. Section promo includes some title and description text about main thought about all content site.   
 ![image](https://user-images.githubusercontent.com/26566737/189490052-9c8c942c-fe6e-4e2d-a20a-bd54def248c5.png)
