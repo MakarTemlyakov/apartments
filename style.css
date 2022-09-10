@@ -39,7 +39,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 30px;
   color: #533738;
   background-color: #e5e5e5;
@@ -205,10 +205,6 @@ a:focus {
   margin-bottom: 40px;
   text-align: center;
 }
-.about .about-img {
-  max-width: 440px;
-  height: 460px;
-}
 
 .columns-wrapper {
   display: flex;
@@ -219,6 +215,10 @@ a:focus {
   width: 528px;
   min-height: 330px;
   margin-bottom: 20px;
+}
+
+.about .description {
+  margin-top: 0;
 }
 
 .list-info {
@@ -237,7 +237,6 @@ a:focus {
 }
 
 .company-info {
-  display: flex;
   background-color: #8d7370;
   padding-top: 85px;
   padding-bottom: 80px;
@@ -287,8 +286,8 @@ a:focus {
 
 .our-works .gallery-item {
   position: relative;
-  /* margin-bottom: 30px; */
 }
+
 .our-works .gallery-item:nth-child(4n + 2) {
   grid-column: 2/-1;
 }
@@ -316,8 +315,6 @@ a:focus {
 .gallery-item .works-heading {
   text-align: center;
   font-weight: 500;
-
-  /* max-width: 270px;  Непонятно */
   font-size: 30px;
   line-height: 37px;
   margin: 0;
@@ -396,13 +393,16 @@ a:focus {
 .employies .employee {
   width: 320px;
   margin-bottom: 35px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+}
+
+.employee .description {
+  margin-top: 0;
 }
 
 .employee img {
+  display: block;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 10px;
 }
 
 .team .working {
@@ -420,10 +420,11 @@ a:focus {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  font-weight: 400;
-  font-size: 18px;
   width: 285px;
-  line-height: 30px;
+}
+
+.wokring-item .description {
+  margin: 0;
 }
 
 .team .wokring-item span {
@@ -434,6 +435,7 @@ a:focus {
   justify-content: center;
   font-size: 30px;
   line-height: 30px;
+  margin-bottom: 20px;
   color: #ffffff;
   text-align: center;
   width: 70px;
