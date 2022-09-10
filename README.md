@@ -1,6 +1,6 @@
 # Landing site - "Design of apartments"
 
-[link](https://makartemlyakov.github.io/apartments/ "Link Site")
+[Link Site](https://makartemlyakov.github.io/apartments/)
 
 https://makartemlyakov.github.io/apartments
 
